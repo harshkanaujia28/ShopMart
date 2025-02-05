@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./Component/Navbar/Navbar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Shop from "./pages/Shop";
+import Shop from "./Pages/Shop";
 import Shopcategory from "./pages/Shopcategory";
 import Footer from "../src/Component/Footer/Footer";
 import mem_banner from "../src/Assets/banner_mens.png";
