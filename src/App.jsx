@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Navbar from "../src/Component/Navbar/Navbar";
+import Navbar from "./Component/Navbar/Navbar.js";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Shop from "./pages/Shop";
 import Shopcategory from "./pages/Shopcategory";
@@ -9,7 +9,7 @@ import mem_banner from "../src/Assets/banner_mens.png";
 import women_banner from "../src/Assets/banner_women.png";
 import kids_banner from "../src/Assets/banner_kids.png";
 import Loginsignup from "./pages/Loginsignup";
-import Product from "./pages/Product";
+import Product from "./Pages/Product";
 import Cart from "./pages/Cart";
 export default function App() {
   const router = createBrowserRouter([
