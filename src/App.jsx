@@ -8,7 +8,7 @@ import Footer from "./Component/Footer/Footer";
 import mem_banner from "../src/Assets/banner_mens.png";
 import women_banner from "../src/Assets/banner_women.png";
 import kids_banner from "../src/Assets/banner_kids.png";
-import Loginsignup from "./pages/Loginsignup";
+import Loginsignup from "./Pages/Loginsignup";
 import Product from "./Pages/Product"
 import Cart from "./Pages/Cart";
 export default function App() {
